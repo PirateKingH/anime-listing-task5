@@ -33,8 +33,7 @@ A clean, **responsive Anime Listing Website** built using HTML, CSS, and JavaScr
 ---
 
 ## 🌐 Live Demo
-🔗 **View Live:** [Click Here](https://yourusername.github.io/anime-listing-task5/)  
-*(Update the link after hosting on GitHub Pages)*
+🔗 **View Live:** [Click Here]([https://yourusername.github.io/anime-listing-task5/](https://piratekingh.github.io/anime-listing-task5/))  
 
 ---
 
