@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anime List — Mini Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Anime Spotlight</h1>
+      <p class="subtitle">A curated list of popular anime — with images, short descriptions, airing info and seasons.</p>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <!-- Cards -->
+    <div class="card" data-slug="kaiju">
+      <img src="images/Kaiju No8.jpeg" alt="Kaiju No.8 poster" />
+      <div class="card-body">
+        <h2>Kaiju No. 8</h2>
+        <p class="short">A fresh take on kaiju action and a reluctant monster with a human heart.</p>
+        <button class="more-btn">More info</button>
+      </div>
+    </div>
+
+    <div class="card" data-slug="naruto">
+      <img src="images/naruto.jpeg" alt="Naruto poster" />
+      <div class="card-body">
+        <h2>Naruto</h2>
+        <p class="short">Classic coming-of-age ninja epic following Naruto Uzumaki's journey.</p>
+        <button class="more-btn">More info</button>
+      </div>
+    </div>
+
+    <div class="card" data-slug="onepiece">
+      <img src="images/onepiece.jpeg" alt="One Piece poster" />
+      <div class="card-body">
+        <h2>One Piece</h2>
+        <p class="short">Long-running adventure about pirates, dreams, and friendship.</p>
+        <button class="more-btn">More info</button>
+      </div>
+    </div>
+
+    <div class="card" data-slug="demon">
+      <img src="images/Demon slayer.webp" alt="Demon Slayer poster" />
+      <div class="card-body">
+        <h2>Demon Slayer (Kimetsu no Yaiba)</h2>
+        <p class="short">A beautifully animated tale of siblings, demons, and vengeance.</p>
+        <button class="more-btn">More info</button>
+      </div>
+    </div>
+
+    <div class="card" data-slug="jujutsu">
+      <img src="images/Jujutsu_Kaisen.webp" alt="Jujutsu Kaisen poster" />
+      <div class="card-body">
+        <h2>Jujutsu Kaisen</h2>
+        <p class="short">A modern supernatural shonen with curses, battles, and strong characters.</p>
+        <button class="more-btn">More info</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal" class="close">&times;</button>
+      <img id="modalImg" src="" alt="" />
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+      <ul id="modalMeta"></ul>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Made with ❤️ — Use this repo for your GitHub Pages demo.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
